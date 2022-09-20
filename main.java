@@ -1,9 +1,7 @@
-package ejercicio2;
-
-import ejercicio2.Chinpokomons.Carnotron;
-import ejercicio2.Chinpokomons.Chinpokomon;
-import ejercicio2.Chinpokomons.Gallotronix;
-import ejercicio2.Chinpokomons.Zapato;
+import Chinpokomons.Carnotron;
+import Chinpokomons.Chinpokomon;
+import Chinpokomons.Gallotronix;
+import Chinpokomons.Zapato;
 
 public class main {
 

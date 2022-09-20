@@ -1,4 +1,4 @@
-package ejercicio2.Chinpokomons;
+package Chinpokomons;
 
 interface ChinpokomonActions{
 

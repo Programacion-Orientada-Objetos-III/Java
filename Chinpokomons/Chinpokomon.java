@@ -1,6 +1,6 @@
-package ejercicio2.Chinpokomons;
+package Chinpokomons;
 
-import ejercicio2.Ataques.Ataque;
+import Ataques.Ataque;
 
 import java.util.List;
 

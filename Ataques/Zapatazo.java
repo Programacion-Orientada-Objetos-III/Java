@@ -1,6 +1,6 @@
-package ejercicio2.Ataques;
+package Ataques;
 
-import ejercicio2.Chinpokomons.Chinpokomon;
+import Chinpokomons.Chinpokomon;
 
 import java.util.Random;
 

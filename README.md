@@ -1,6 +1,11 @@
 # TP 1
 ## Chinpokomon
 
+### Configuracion de entorno
+#### 1: git clone {url repositorio}
+#### 2: file > project structure > Project SDK = Java 11 (O la que tengas instalada en tu pc) Project lenguaje level = 11 (O alguna inferior a la SDK que hayas elejido)
+#### 3: Dentro dl archivo main.java ejecutarlo y ver que compile y devuelva el resultado por consola
+
 ### Enunciado:
 
 Queremos diseñar un videojuego de "Chinpokomon", donde diversas criaturas se

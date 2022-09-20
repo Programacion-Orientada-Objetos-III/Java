@@ -1,8 +1,8 @@
-package ejercicio2.Chinpokomons;
+package Chinpokomons;
 
-import ejercicio2.Ataques.Ataque;
-import ejercicio2.Ataques.CañonConico;
-import ejercicio2.Ataques.RayoVeloz;
+import Ataques.Ataque;
+import Ataques.CañonConico;
+import Ataques.RayoVeloz;
 
 import java.util.ArrayList;
 import java.util.List;

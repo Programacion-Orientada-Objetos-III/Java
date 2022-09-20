@@ -1,4 +1,4 @@
-package ejercicio2.Ataques;
+package Ataques;
 
 public class GarraMecanica extends Ataque{
     public GarraMecanica() {

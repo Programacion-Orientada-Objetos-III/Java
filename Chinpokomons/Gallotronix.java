@@ -1,7 +1,7 @@
-package ejercicio2.Chinpokomons;
+package Chinpokomons;
 
-import ejercicio2.Ataques.Ataque;
-import ejercicio2.Ataques.GarraMecanica;
+import Ataques.Ataque;
+import Ataques.GarraMecanica;
 
 import java.util.ArrayList;
 import java.util.List;

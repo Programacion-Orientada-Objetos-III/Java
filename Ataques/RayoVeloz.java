@@ -1,4 +1,4 @@
-package ejercicio2.Ataques;
+package Ataques;
 
 public class RayoVeloz extends Ataque {
     public RayoVeloz() {

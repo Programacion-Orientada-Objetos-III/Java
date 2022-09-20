@@ -1,6 +1,4 @@
-package ejercicio2;
-
-import ejercicio2.Chinpokomons.Chinpokomon;
+import Chinpokomons.Chinpokomon;
 
 public class CampoBatalla {
     final Chinpokomon peleador1;
