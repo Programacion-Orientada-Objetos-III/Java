@@ -1,6 +1,7 @@
 package Chinpokomons;
 
 import Ataques.Ataque;
+import Logger.Logger;
 
 import java.util.List;
 
@@ -9,6 +10,7 @@ public abstract class Chinpokomon implements ChinpokomonActions{
     private String nombre;
     private Boolean isDeath;
     private List<Ataque> ataques;
+    private Logger logger = new Logger().getLogger();
 
     public List<Ataque> getAtaques() {
         return ataques;
@@ -25,8 +27,10 @@ public abstract class Chinpokomon implements ChinpokomonActions{
         if(this.getVida() - damage < 0){
             setDeath(true);
             this.setVida(0);
+            logger.info("El Chinpokomon "+ this.getNombre() + " murio");
         }else {
             this.setVida(this.vida - damage);
+            logger.debug("El Chinpokomon " + this.getNombre() + " tiene "+ this.getVida() +" de vida");
         }
     }
     public void atacar(Chinpokomon chinpokomon){
