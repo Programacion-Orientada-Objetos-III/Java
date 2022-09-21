@@ -7,6 +7,7 @@ import java.util.Random;
 public class Zapatazo extends Ataque{
     public Zapatazo() {
         this.setDamage(1);
+        this.setAddsHealth2attacker(false);
     }
     @Override
     public void realizarAtaque(Chinpokomon chinpokomon){
