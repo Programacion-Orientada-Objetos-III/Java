@@ -2,11 +2,15 @@ import Chinpokomons.Carnotron;
 import Chinpokomons.Chinpokomon;
 import Chinpokomons.Gallotronix;
 import Chinpokomons.Zapato;
+import Logger.Logger;
+import Logger.Level;
 
-public class main {
 
+public class Main {
     //Campo de batalla
     public static void main(String[] args) {
+        Logger logger = new Logger();
+        logger.setLevel(Level.INFO);
         try{
             final Chinpokomon carnotron = new Carnotron();
             final Chinpokomon zapato = new Zapato();
@@ -14,11 +18,9 @@ public class main {
 
             final CampoBatalla campoBatalla = new CampoBatalla(carnotron, zapato);
 //            final CampoBatalla campoBatalla = new CampoBatalla(carnotron, gallotronix);
-
             campoBatalla.comenzarPelea();
         }catch (Error err){
-            System.out.println("Error en batalla " + err.getMessage());
+            logger.error("Error en batalla " + err.getMessage());
         }
-
     }
 }
