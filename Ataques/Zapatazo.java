@@ -8,15 +8,16 @@ public class Zapatazo extends Ataque{
     public Zapatazo() {
         this.setDamage(1);
         this.setAddsHealth2attacker(false);
+        this.setExtraDamage(3);
     }
     @Override
-    public void realizarAtaque(Chinpokomon chinpokomon){
+    public void realizarAtaque(Chinpokomon chinpokomonAtacante,Chinpokomon chinpokomonDefensor){
         final Random random = new Random();
         //El metodo nextBoolean nos da un 50% de probabilidad de que salga true o false.
         if(random.nextBoolean()){
-            chinpokomon.dealDamage(this.getDamage());
+            chinpokomonDefensor.dealDamage(this.getDamage());
         }
-        super.realizarAtaque(chinpokomon);
+        super.realizarAtaque(chinpokomonAtacante,chinpokomonDefensor);
 
     }
 

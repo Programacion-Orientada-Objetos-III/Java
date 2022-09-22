@@ -12,8 +12,8 @@ public class Main {
             final Chinpokomon carnotron = new Carnotron();
             final Chinpokomon zapato = new Zapato(false);
             final Chinpokomon gallotronix = new Gallotronix();
-            final Chinpokomon zapatovPOWER = new Zapato(true);
-            final CampoBatalla campoBatalla = new CampoBatalla(zapatovPOWER, zapato);
+            final Chinpokomon zapatoPOWER = new Zapato(true);
+            final CampoBatalla campoBatalla = new CampoBatalla(gallotronix, zapato);
             campoBatalla.comenzarPelea();
         }catch (Error err){
             logger.error("Error en batalla " + err.getMessage());
