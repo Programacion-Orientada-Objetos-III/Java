@@ -1,7 +1,8 @@
 package Ataques;
 
 public class GarraMecanica extends Ataque{
-    public GarraMecanica() {
+    public GarraMecanica(){
         this.setDamage(2);
+        this.setAddsHealth2attacker(false);
     }
 }

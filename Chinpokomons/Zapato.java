@@ -1,6 +1,7 @@
 package Chinpokomons;
 
 import Ataques.Ataque;
+import Ataques.PomadaWassington;
 import Ataques.Zapatazo;
 
 import java.util.ArrayList;
@@ -8,13 +9,14 @@ import java.util.List;
 import java.util.Random;
 
 public class Zapato extends Chinpokomon implements ChinpokomonActions{
-    public Zapato(){
+    public Zapato(boolean isMultiAtacks){
+        final int random = new Random().nextInt(10);
         this.setVida(20);
-        this.setNombre("Zapato");
+        this.setNombre("Zapato #"+ random);
         final List<Ataque> ataques = new ArrayList<>();
-        final Ataque zapatazo = new Zapatazo();
-        ataques.add(zapatazo);
+        ataques.add(new Zapatazo());
+        if(isMultiAtacks)
+            ataques.add(new PomadaWassington());
         this.setAtaques(ataques);
     }
-
 }

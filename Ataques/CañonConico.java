@@ -7,6 +7,7 @@ import java.util.Random;
 public class CañonConico extends Ataque{
     public CañonConico() {
         this.setDamage(4);
+        this.setAddsHealth2attacker(false);
     }
     @Override
     public void realizarAtaque(Chinpokomon chinpokomon){
