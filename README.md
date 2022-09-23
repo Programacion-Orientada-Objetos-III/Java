@@ -4,7 +4,7 @@
 ### Configuracion de entorno
 #### 1: git clone {url repositorio}
 #### 2: file > project structure > Project SDK = Java 11 (O la que tengas instalada en tu pc) Project lenguaje level = 11 (O alguna inferior a la SDK que hayas elejido)
-#### 3: Dentro dl archivo main.java ejecutarlo y ver que compile y devuelva el resultado por consola
+#### 3: Dentro dl archivo Main.java ejecutarlo y ver que compile y devuelva el resultado por consola
 
 ### Enunciado:
 
@@ -29,10 +29,10 @@ Queremos modelar 3 chinpokomons y sus ataques:
 
 ##### Punto 1:
 En nuestra primera implementación queremos crear la clase `Chinpokomon`, crear
-los chinpokomons mencionados en un main, y poner a pelear a "Carnotron" contra
+los chinpokomons mencionados en un Main, y poner a pelear a "Carnotron" contra
 "Zapato". Para pelear, se pide considere que haya alguna entidad encargada de
 gestionar las batallas, cuyo comportamiento sea hacer que ambos peleen y que
-devuelva el ganador. El objetivo entonces es en un main poder hacer batallar dos
+devuelva el ganador. El objetivo entonces es en un Main poder hacer batallar dos
 e imprimir el nombre del ganador.
 
 ##### Punto 2:
